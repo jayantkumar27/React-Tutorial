@@ -9,3 +9,7 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+/*
+document.getElementById('root')  isse hum index.html ke andar se root id ke refference lete hai
+ */

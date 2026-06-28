@@ -14,4 +14,5 @@ Function like this = Component
 
 and hume function ka naam Capital letter se likhna hai kyoki ye React ka RULE hai
 
+Aur File Ka Naam bhi Capital Letter se start karna Ek good Practice hai
 */
