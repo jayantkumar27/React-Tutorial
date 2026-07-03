@@ -25,3 +25,87 @@ like in url /profile ya /Contacts ya /Skill
 Isko hi SPA kahte hai 
 Single Page Application
  */
+
+
+
+
+/*
+RENDERING
+Rendering actually means
+
+React executes your component function to figure out what the UI should look like.
+
+The browser update happens afterwards.
+
+Think of it like
+
+Component executes
+        ↓
+React gets JSX
+        ↓
+React compares old UI vs new UI
+        ↓
+Browser updates only necessary parts
+
+Rendering is thinking.
+
+DOM update is acting.
+
+These are different steps.
+
+
+
+
+
+
+
+When rendering, React roughly does this:
+
+Run component
+        ↓
+Get JSX
+        ↓
+Convert JSX to React Elements (objects)
+        ↓
+Build Virtual DOM tree
+        ↓
+Compare with previous tree
+        ↓
+Find differences
+        ↓
+Update Real DOM
+
+Notice the browser is involved only in the final step.
+
+
+
+
+
+
+
+
+
+
+
+
+People hear
+
+React re-renders
+
+and imagine
+
+Everything runs again.
+
+Everything updates.
+
+Everything flashes.
+
+
+Only the first part is true.
+
+When state changes:
+
+Component function runs again.
+
+But the browser only updates what actually changed.
+*/
