@@ -11,7 +11,7 @@ function App() {
   //like login setlogin,superman setsuperman and etc.
 
   const addValue = ()=>{
-      if(counter!=20){
+      if(counter!=20){  //This if is for stoping the counter to go above set number 20 
         setcounter(counter + 1)//Setcounter update everything at once , were counter was used
     }
   }
