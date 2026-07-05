@@ -28,6 +28,8 @@ function App() {
      <h2>Number Counter = {counter}</h2>
      <button onClick={addValue}>Add one Number</button>
      <button onClick={removeValue}>Subract one Number</button>
+
+     {/* hum return mai sirf ek element de sakte hai */}
     </>
   )
 }
