@@ -17,7 +17,7 @@ function App() {
   }
 
   const removeValue = ()=>{
-    if(counter!=0){
+    if(counter!=0){  //This if is to stop counter to go to negitive numbers 
       setcounter(counter-1)
     }
   }
