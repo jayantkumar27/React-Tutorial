@@ -12,7 +12,7 @@ function App() {
 
   const addValue = ()=>{
       if(counter!=20){
-        setcounter(counter + 1)
+        setcounter(counter + 1)//Setcounter update everything at once , were counter was used
     }
   }
 
