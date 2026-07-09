@@ -10,7 +10,7 @@ function App() {
 
   return (
   <div className="w-full flex justify-center">
-  <h1 className="inline-block bg-blue-300 text-4l px-6 py-9 rounded-full">
+  <h1 className="inline-block bg-blue-300 text-2xl px-3 py-1 rounded-full">
     The CodeGuy
   </h1>
 </div>
