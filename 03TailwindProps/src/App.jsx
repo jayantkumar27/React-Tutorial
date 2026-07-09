@@ -9,7 +9,11 @@ function App() {
   
 
   return (
-   <Card/>
+  <div className="w-full flex justify-center">
+  <h1 className="inline-block bg-blue-300 text-4l px-6 py-9 rounded-full">
+    The CodeGuy
+  </h1>
+</div>
   )
 }
 
