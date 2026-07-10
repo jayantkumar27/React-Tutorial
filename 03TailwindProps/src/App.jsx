@@ -14,9 +14,11 @@ function App() {
     {/* text-black nhi ho raha tha most probably global mai kuch dark colour setting ke wajah se
     lekin ! laga ke isko important tag mil jata hai aur ye override kar deta global ya kuch aur wale ko 
     The ! Modifier: Writing !text-black compiles to color: #000000 !important; in CSS. This is the quickest way to force the color change when custom global styles or third-party CSS are interfering.
-    The CodeGuy */}
+    */}
+    The CodeGuy 
   </h1>
-  <Card/>
+  <Card world="Earth" />
+  <Card world="blue star" />
 </div>
   )
 }
