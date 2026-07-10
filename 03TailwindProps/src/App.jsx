@@ -11,7 +11,7 @@ function App() {
     username: "Jayant",
     age: 21
   }
-  let newArr = [1, 2, 3
+  let newArr = [1, 2, 3]
 
   
 
