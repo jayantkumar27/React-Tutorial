@@ -26,6 +26,7 @@ function App() {
   </h1>
   <Card world="Earth" realm="MCU"  btnText="DEKHO MUJHE" />
   <Card world="blue star "  realm ="DCU" btnText="GHUROO MUJHE"/>
+  {/* <Card someobj={myObj} somearr={newArr} /> ye props obj mai aajta hai aur ye tarika hota hai obj aur arr pass karne ka */}
 </div>
   )
 }
