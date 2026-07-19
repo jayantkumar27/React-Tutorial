@@ -2,17 +2,31 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  let [passwrd, setpasswrd] = useState(0)
+
+
+  
 
   return (
    <>
    
 
-   <div className='w-full  flex justify-center'>
+   <div className='w-full  flex  flex-col items-center'>
 
    <h1 className='inline-block bg-cyan-400 text-2xl text-black  px-3 py-1.5 rounded-3xl '
    
-   >The CodeGuy &lt;/&gt;</h1>
+   >The CodeGuy &lt;/&gt;   </h1>
+
+   <button className='bg-red-400 text-black px-2 py-1 rounded-2xl'
+   onClick={()=>{
+          setpasswrd(Math.floor(Math.random()*10000))
+          console.log(setpasswrd)
+   }}>
+    Generate Password
+   </button>
+
+   <h2>Generated Password:{passwrd}</h2>
+
    </div>
  
    </>
