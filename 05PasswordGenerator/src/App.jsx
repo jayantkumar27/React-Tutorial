@@ -12,7 +12,7 @@ function App() {
 
    <h1 className='inline-block bg-cyan-400 text-2xl text-black  px-3 py-1.5 rounded-3xl '
    
-   >The Code_Guy</h1>
+   >The CodeGuy &lt;/&gt;</h1>
    </div>
  
    </>
