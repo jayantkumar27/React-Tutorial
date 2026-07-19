@@ -19,7 +19,7 @@ function App() {
 
    <button className='bg-red-400 text-black px-2 py-1 rounded-2xl'
    onClick={()=>{
-          setpasswrd(Math.floor(Math.random()*10000))
+          setpasswrd(Math.ceil((Math.random()*9999)+1))
           console.log(setpasswrd)
    }}>
     Generate Password
