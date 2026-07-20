@@ -17,16 +17,7 @@ function App() {
    
    >The CodeGuy &lt;/&gt;   </h1>
 
-   <button className='bg-red-400 text-black px-2 py-1 rounded-2xl'
-   onClick={()=>{
-          setpasswrd(Math.ceil((Math.random()*9999)+1))
-          console.log(setpasswrd)
-   }}>
-    Generate Password
-   </button>
-
-   <h2>Generated Password:{passwrd}</h2>
-
+   
    </div>
  
    </>
