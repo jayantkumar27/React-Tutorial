@@ -2,8 +2,10 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let [passwrd, setpasswrd] = useState(0)
-
+  const [passwrd, setpasswrd] = useState(0)
+  const [length,setLength]=useState(8)
+  const [numberallowed,setNumberllowed]=useState(false)
+  const [charallowed,setCharallowed]=useState(false)
 
   
 
