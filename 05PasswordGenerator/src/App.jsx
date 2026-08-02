@@ -35,7 +35,7 @@ function App() {
   useEffect(()=>{
     passwordGenerator()
 
-  },[length,numberallowed,charallowed,passwordGenerator])
+  },[length,numberallowed,charallowed,passwordGenerator])//ye [] ismai dependencies hoti hai jispe function depend hota hai
 
   return (
    <>
