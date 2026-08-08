@@ -31,7 +31,7 @@ function App() {
     <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-amber-100"
             style={{
-                backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+                backgroundImage: `url('https://cdn.mos.cms.futurecdn.net/rTh56Sw5YjFvpW8SF5pJvV-1200-80.jpg')`,
             }}
         >
             <div className="w-full">
